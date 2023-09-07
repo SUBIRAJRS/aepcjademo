@@ -223,4 +223,6 @@ digitalData.cart.cartEntries=cartItemSubiAdd;
 }
 	}
 	}
+  simpleCart.add('name='+prodName,'price='+prodPrice);
+
 }
