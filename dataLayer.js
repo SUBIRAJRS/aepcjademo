@@ -13,7 +13,7 @@ var length=location.pathname.split(".")[0].split("/").length;
 var pageName2="gm"
 for(var i=0;i<length;i++)
     {
-        if (checkValue[i]=="geometrix-site")
+        if (checkValue[i]=="aepcjademo")
         {
          
            n=i;
@@ -36,7 +36,7 @@ for(var i=n+1;i<length;i++)
     }
 	pageName=pageName2;
 	
-	if(location.pathname==="/aepcdpfg/geometrix-site/" || location.pathname.indexOf("index.html")>-1 )
+	if(location.pathname==="/aepcjademo/" || location.pathname.indexOf("index.html")>-1 )
 {
 pageName="gm:homepage";
 channel="home";
